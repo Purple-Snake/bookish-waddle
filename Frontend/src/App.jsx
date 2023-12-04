@@ -1,10 +1,8 @@
-import './App.css'
+import "./App.css";
+import NavigationBar from "./components/navbar/Navabar";
 
 function App() {
-
-  return (
-    <h1>Bokkish-Waddle</h1>
-  )
+  return <NavigationBar />;
 }
 
-export default App
+export default App;
