@@ -1,8 +1,14 @@
 import "./App.css";
 import NavigationBar from "./components/navbar/Navabar";
+import Info from "./components/info_Page/Info";
 
 function App() {
-  return <NavigationBar />;
+  return (
+    <div>
+      <NavigationBar />
+      <Info />
+    </div>
+  );
 }
 
 export default App;
