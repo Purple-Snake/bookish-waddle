@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "header": "Item 1",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptate ipsam. Mollitia asperiores iure nemo velit repudiandae laudantium officiis adipisci aliquid voluptas! Quas minus maxime nesciunt obcaecati earum quos! Atque."
+    },
+    {
+        "id": 2,
+        "header": "Item 2",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptate ipsam. Mollitia asperiores iure nemo velit repudiandae laudantium officiis adipisci aliquid voluptas! Quas minus maxime nesciunt obcaecati earum quos! Atque."
+    }
+]
