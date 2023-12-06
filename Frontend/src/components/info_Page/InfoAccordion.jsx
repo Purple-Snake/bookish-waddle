@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 function InfoAccordion({ data }) {
     return ( 
         <Accordion>
-        <Accordion.Item eventKey="0">
+        <Accordion.Item eventKey={data.id}>
           <Accordion.Header>{data.header}</Accordion.Header>
           <Accordion.Body>
             {data.body}
