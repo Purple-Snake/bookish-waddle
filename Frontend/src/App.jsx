@@ -1,7 +1,7 @@
 import "./App.css";
-import NavigationBar from "./components/navbar/Navabar";
-import Info from "./components/info_Page/Info";
 import { Routes, Route } from "react-router-dom";
+import NavigationBar from "./components/navbar/Navbar";
+import Info from "./components/info_Page/Info";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path="/" element={<Info />}/>
+        <Route path="Kuprine" element/>
       </Routes>
     </div>
   );
