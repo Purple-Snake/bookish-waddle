@@ -1,6 +1,12 @@
+import BackPackIntro from "./BackPack_intro";
+import BackPack_items from "./BackPack_items";
+
 function BackPack() {
     return ( 
-        <div>hufhiosnhgiuohowaer</div>
+        <div>
+            <BackPackIntro />
+            <BackPack_items />
+        </div>
      );
 }
 

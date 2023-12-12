@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Kūrinių skyrius",
+        "content": [
+            {
+                "header": "header 1",
+                "body": "TEXT, text, more text, a lot more text."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Taisyklių skyrius",
+        "content": [
+            {
+                "header": "header 2",
+                "body": "TEXT, this one has less text."
+            },
+            {
+                "header": "header 3",
+                "body": "TEXT, text, more text, a lot more text. Text, Text ,Text Text. This has the most text."
+            }
+        ]
+    }
+]
