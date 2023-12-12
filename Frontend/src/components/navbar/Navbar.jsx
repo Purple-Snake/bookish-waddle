@@ -7,13 +7,12 @@ function NavigationBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/">TITLE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Pradžia</Nav.Link>
             <Nav.Link as={Link} to="/Kuprine">Kuprinė</Nav.Link>
-            <Nav.Link as={Link} to="#">Rašinio vedlys</Nav.Link>
+            <Nav.Link as={Link} to="/rasinio_vedlys">Rašinio vedlys</Nav.Link>
             <Nav.Link as={Link} to="#">Link</Nav.Link>
           </Nav>
         </Navbar.Collapse>
