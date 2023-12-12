@@ -1,5 +1,6 @@
 import InfoData from "../../data/infoData.json";
 import InfoAccordion from "./InfoAccordion";
+import "./style.css";
 
 function Info() {
   return (
