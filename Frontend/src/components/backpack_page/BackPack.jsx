@@ -1,5 +1,6 @@
 import BackPackIntro from "./BackPack_intro";
 import BackPack_items from "./BackPack_items";
+import "./backPackStyle.css";
 
 function BackPack() {
     return ( 
