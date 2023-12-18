@@ -1,0 +1,39 @@
+img{
+    width: 100%;
+    
+}
+
+iframe{
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: orangered;
+    
+    text-align: center;
+} 
+
+#intro {
+    text-align: center;
+    background-color: midnightblue;
+    margin: 20px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer{
+    text-align: center;
+    background-color: midnightblue;
+    margin: 20px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}

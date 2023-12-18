@@ -1,7 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import "./navbarStyle.css";
 
 function NavigationBar() {
   return (
@@ -13,7 +14,7 @@ function NavigationBar() {
             <Nav.Link as={Link} to="/">Pradžia</Nav.Link>
             <Nav.Link as={Link} to="/Kuprine">Kuprinė</Nav.Link>
             <Nav.Link as={Link} to="/rasinio_vedlys">Rašinio vedlys</Nav.Link>
-            <Nav.Link as={Link} to="#">Link</Nav.Link>
+            <Nav.Link as={Link} to="#">Kita Informacija</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

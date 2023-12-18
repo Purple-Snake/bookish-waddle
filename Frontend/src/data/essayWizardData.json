@@ -1,8 +1,134 @@
 [
     {
         "id": 1,
-        "title": "I. Pasiroušimas rašiniui",
-        "text": "TEXT or the slide",
-        "embVideo": "https://www.youtube.com/embed/n3ZwANAhCB8?si=PBNwq9Tw6m7MQTht"
+        "title": "I. PASIRUOŠIMAS RAŠINIUI",
+        "body": "../slides/1_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/F6CSzbsmvUQ?si=8g8QhRlSEUK2Z35W"
+    },
+    {
+        "id": 2,
+        "title": "",
+        "body": "../slides/2_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/CYEF23gLFUo?si=utvYbyO2dDTbD6zI"
+    },
+    {
+        "id": 3,
+        "title": "",
+        "body": "../slides/3_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/Tg2j5MQXb7E?si=xIdCZ1qARBpoV5KN"
+    },
+    {
+        "id": 4,
+        "title": "",
+        "body": "../slides/4_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/owZdUdRS7TM?si=LY8UKQGiV4RyJbGa"
+    },
+    {
+        "id": 5,
+        "title": "",
+        "body": "../slides/5_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/_ZtBGbrr3ME?si=n4ok8uiT4RncVC7C"
+    },
+    {
+        "id": 6,
+        "title": "II. RAŠINIO RAŠYMAS",
+        "body": "../slides/6_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/SrRF45islC8?si=M64uzuwOEvT-8wEc"
+    },
+    {
+        "id": 7,
+        "title": "",
+        "body": "../slides/7_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/58ukLi48u5c?si=ql4HcVejyQAzv6n6"
+    },
+    {
+        "id": 8,
+        "title": "",
+        "body": "../slides/8_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/G_Y3a8IutUU?si=8PSmKDI_dz8Ij7aJ"
+    },
+    {
+        "id": 9,
+        "title": "",
+        "body": "../slides/9_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/ilIVhnknUh0?si=P1FSbwABjL0Z5Lj3"
+    },
+    {
+        "id": 10,
+        "title": "",
+        "body": "../slides/10_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/ZAiLL-5HORs?si=tAb6Z92QkpkV8XRJ"
+    },
+    {
+        "id": 11,
+        "title": "",
+        "body": "../slides/11_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/CGoGLR2bB9w?si=5upjiz-ljDRcU080"
+    },
+    {
+        "id": 12,
+        "title": "",
+        "body": "../slides/12_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/l5xmFKwuBXs?si=eBJW6qCztexWGdao"
+    },
+    {
+        "id": 13,
+        "title": "",
+        "body": "../slides/13_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/HkQth4V3ZUc?si=tDzxUfbT9FyPMiI-"
+    },
+    {
+        "id": 14,
+        "title": "",
+        "body": "../slides/14_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/y0pobIhzCsk?si=xKxEKsUFj5ClYvtT"
+    },
+    {
+        "id": 15,
+        "title": "",
+        "body": "../slides/15_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/Y7GhSIWzfr8?si=NAkS2HRHjiimzLdj"
+    },
+    {
+        "id": 16,
+        "title": "",
+        "body": "../slides/16_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/HGKDfFy0fKo?si=bY5Q6JUIBG_Fda-4"
+    },
+    {
+        "id": 17,
+        "title": "",
+        "body": "../slides/17_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/jKsgmq56Wbk?si=qbqg503Ws5UIk7hW"
+    },
+    {
+        "id": 18,
+        "title": "",
+        "body": "../slides/18_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/kuUpzyJV3yY?si=2CtHUa6xMTXj_QNP"
+    },
+    {
+        "id": 191,
+        "title": "",
+        "body": "../slides/19_1_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/iylDLrAtfi8?si=ivP6m0IPsTg0MPhi"
+    },
+    {
+        "id": 192,
+        "title": "",
+        "body": "../slides/19_2_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/iylDLrAtfi8?si=ivP6m0IPsTg0MPhi"
+    },
+    {
+        "id": 20,
+        "title": "",
+        "body": "../slides/20_zingsnis.png", 
+        "embVideo": "https://www.youtube.com/embed/GUDceZ8yHI0?si=41HuNvEHYDXudlVS"
+    },
+    {
+        "id": 20,
+        "title": "",
+        "body": "../slides/VisasRasinys.png", 
+        "embVideo": "https://www.youtube.com/embed/oU1WnOCqmkE?si=GcfjF6h5BFQisjvp"
     }
 ]

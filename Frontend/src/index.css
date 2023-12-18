@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+#root {
+    margin: 10px;
+    white-space: pre-line;  
+vertical-align: bottom;
+}
