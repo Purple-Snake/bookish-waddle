@@ -1,0 +1,13 @@
+.accordion-container {
+    margin: 2rem; 
+}
+
+.accordion-body{
+    background-color: var(--Secondary);
+    /* color: azure; */
+    font-weight: bold;
+}
+
+.accordion-head {
+    background-color: var(--Primary) !important;
+}

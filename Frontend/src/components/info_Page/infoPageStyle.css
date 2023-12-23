@@ -1,5 +1,9 @@
+.arrow-container {
+    display: flex;
+}
 
-
-nav {
-    border-radius: 5px;
+.arrow-icon {
+    margin: auto;
+    filter: invert(0%) sepia(100%) saturate(13%) hue-rotate(288deg) brightness(95%) contrast(107%);
+    width: 2rem;
 }

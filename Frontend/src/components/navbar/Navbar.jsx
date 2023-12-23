@@ -6,7 +6,7 @@ import "./navbarStyle.css";
 
 function NavigationBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar bg-body-tertiary">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -14,7 +14,7 @@ function NavigationBar() {
             <Nav.Link as={Link} to="/">Pradžia</Nav.Link>
             <Nav.Link as={Link} to="/Kuprine">Kuprinė</Nav.Link>
             <Nav.Link as={Link} to="/rasinio_vedlys">Rašinio vedlys</Nav.Link>
-            <Nav.Link as={Link} to="#">Kita Informacija</Nav.Link>
+            <Nav.Link as={Link} to="/kita_informacija">Kita Informacija</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

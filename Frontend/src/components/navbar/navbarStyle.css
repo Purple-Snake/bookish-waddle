@@ -1,9 +1,7 @@
-.nav-link{
-font-weight: bold;
-color:blue;
-
+.nav-link {
+    font-weight: bold;
 }
 
-nav{
-    background-color: bisque;
+.navbar {
+    background-color: var(--Secondary) !important;
 }

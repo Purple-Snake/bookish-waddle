@@ -1,5 +1,13 @@
+:root {
+  --Primary: #bbbcbd;
+  --Secondary: #f0f0f0;
+  --colourColour: #c3c8d4;
+  --White: #fff;
+  --Grey: #d9d9d9; 
+}
+
 body {
-    background-color: black;
+    background-color: var(--White);
 }
 
 #root {

@@ -4,7 +4,7 @@ import "./infoPageStyle.css";
 
 function Info() {
   return (
-    <div>
+    <div className="accordion-container">
       {InfoData.map((data) => (
         <InfoAccordion data={data} key={data.id} />
       ))}
