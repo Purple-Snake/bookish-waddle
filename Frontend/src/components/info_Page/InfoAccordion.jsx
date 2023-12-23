@@ -7,15 +7,15 @@ function InfoAccordion({ data }) {
   const eventKey = data.id == 1 ? "1" : "0";
 
   return (
-    <Accordion defaultActiveKey="1">
+    <Accordion className="accordion" defaultActiveKey="1">
       <Accordion.Item eventKey={eventKey}>
-        <Accordion.Header>{data.header}</Accordion.Header>
+        <Accordion.Header className="accordion-head">{data.header}</Accordion.Header>
         <Accordion.Body>
           {data.body}
           <Link to="/kuprine">{data.link}</Link>
           {eventKey == true && (
-            <div className="arrow_container">
-              <img className="arrow_icon" src={arrowDownIcon} alt="&#8595;" />
+            <div className="arrow-container">
+              <img className="arrow-icon" src={arrowDownIcon} alt="&#8595;" />
             </div>
           )}
         </Accordion.Body>

@@ -1,36 +1,67 @@
+import { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 import PropTypes from "prop-types";
+// import ExampleModal from "../modal/ExampleModal";
 
 function BackPack_item({ data }) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
-    <div>
-      <h3>{data.title}</h3>
-      {data.content.map((contentData) => (
-        <div key={contentData.header}>
-          <Accordion>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>{contentData.header}</Accordion.Header>
-              <Accordion.Body>
-                {contentData.body}
-                {contentData.links && contentData.links.length > 0 && (
-                  <span>
-                    {contentData.links.map((link, linkIndex) => (
-                        <a key={linkIndex}
+    <>
+      <div>
+        <h3>{data.title}</h3>
+        {data.content.map((contentData) => (
+          <div key={contentData.header}>
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>{contentData.header}</Accordion.Header>
+                <Accordion.Body>
+                  {contentData.body}
+                  {contentData.body2 && (
+                    <span>
+                      <Button variant="primary" onClick={handleShow}>
+                        aaa
+                      </Button>
+                      <div>{contentData.body2}</div>
+                    </span>
+                  )}
+                  {contentData.links && contentData.links.length > 0 && (
+                    <span>
+                      {contentData.links.map((link, linkIndex) => (
+                        <a
+                          key={linkIndex}
                           href={link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           Link {linkIndex + 1}
                         </a>
-                    ))}
-                  </span>
-                )}
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </div>
-      ))}
-    </div>
+                      ))}
+                    </span>
+                  )}
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </div>
+        ))}
+      </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
   );
 }
 

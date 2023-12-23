@@ -3,7 +3,7 @@ import BackPack_item from "./backPack_item";
 
 function BackPack_items() {
     return ( 
-        <div className="accordeon">
+        <div className="accordion-container">
             {backpackData.map(data => (
                 <BackPack_item  data={data} key={data.id}/>
             ))}
