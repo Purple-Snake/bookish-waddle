@@ -25,7 +25,7 @@ function BackPack_item({ data }) {
                   {contentData.body2 && (
                     <span>
                       <Button variant="primary" onClick={handleShow}>
-                        aaa
+                        Žemėlapis
                       </Button>
                       <div>{contentData.body2}</div>
                     </span>
@@ -39,7 +39,7 @@ function BackPack_item({ data }) {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          Link {linkIndex + 1}
+                          Nuoroda {linkIndex + 1}
                         </a>
                       ))}
                     </span>
@@ -52,12 +52,12 @@ function BackPack_item({ data }) {
       </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Žemėlapio pavyzdys</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Body><img src="../slides/Zemelapis.png" alt="Temu zemelapis"></img></Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Uždaryti
           </Button>
         </Modal.Footer>
       </Modal>
