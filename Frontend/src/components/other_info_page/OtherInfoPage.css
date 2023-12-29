@@ -1,0 +1,10 @@
+h6 {
+    font-style: italic;
+    color:darkgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+
+a {
+    color: purple;
+}

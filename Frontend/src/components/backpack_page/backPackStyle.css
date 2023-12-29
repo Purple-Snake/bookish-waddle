@@ -1,5 +1,5 @@
 #kuprinesIntro{
-    background-color: midnightblue;
+    background-color: var(--Secondary) !important;
     margin: 30px;
     border-radius: 5px;
 }
@@ -18,20 +18,20 @@ p{
     font-size: xx-large;
     font-weight: bold;
     font-style: italic;
-    color: azure;
+    color:black;
 } 
 
 #secondClause{
     
     font-weight: bolder;
-    color: azure;
+    color: black;
 }
 
 
 h3{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: orangered;
+    color: green;
     margin-top: 10px;
     margin-bottom: 12px;
     text-align: center;

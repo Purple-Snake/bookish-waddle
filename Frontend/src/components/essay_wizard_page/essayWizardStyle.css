@@ -11,17 +11,17 @@ iframe{
 h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: orangered;
+    color: green;
     
     text-align: center;
 } 
 
 #intro {
     text-align: center;
-    background-color: midnightblue;
+    background-color: var(--Secondary) !important;
     margin: 20px;
     border-radius: 5px;
-    color: azure;
+    color: black;
     font-weight: bold;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
@@ -29,10 +29,10 @@ h2{
 
 #footer{
     text-align: center;
-    background-color: midnightblue;
+    background-color: var(--Secondary) !important;
     margin: 20px;
     border-radius: 5px;
-    color: azure;
+    color: black;
     font-weight: bold;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;

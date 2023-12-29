@@ -5,7 +5,7 @@ function Wizard_footer() {
             
             Rūpinkis savo kuprine ir "keliauk" kuo daugiau - nes taip tu išmoksi pritaikyti žinias.<br></br>
 
-            Būtinai susirask mokytoją, kuris skaitytų tavo rašinius ir suteiktų tau <u>gerą</u> grįžtamąjį ryšį.
+            
 
 
         </div>
